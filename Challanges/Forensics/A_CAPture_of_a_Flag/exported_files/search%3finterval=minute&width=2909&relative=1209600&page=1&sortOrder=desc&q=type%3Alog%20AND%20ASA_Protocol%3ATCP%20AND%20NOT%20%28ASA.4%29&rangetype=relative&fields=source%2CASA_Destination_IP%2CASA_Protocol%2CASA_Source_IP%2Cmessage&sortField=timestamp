@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="noindex, nofollow">
+    <meta charset="UTF-8">
+    <title>Graylog Web Interface</title>
+    <link rel="shortcut icon" href="/assets/favicon.png">
+    
+  </head>
+  <body>
+    <script src="/config.js"></script>
+    <script src="/assets/vendor.js"></script>
+    
+    <script src="/assets/polyfill.35e28e4da7743596569a.js"></script>
+    
+    <script src="/assets/plugin/org.graylog.plugins.pipelineprocessor.ProcessorPlugin/plugin.org.graylog.plugins.pipelineprocessor.PipelineProcessorPlugin.0cbe11128085ed745b77.js"></script>
+    
+    <script src="/assets/plugin/org.graylog.plugins.map.MapWidgetPlugin/plugin.org.graylog.plugins.map.MapWidgetPlugin.5011f2ebff35ef956f1b.js"></script>
+    
+    <script src="/assets/plugin/org.graylog.plugins.enterprise_integration.EnterpriseIntegrationPlugin/plugin.org.graylog.plugins.enterprise_integration.EnterpriseIntegrationPlugin.3e5ff59c400f972516bd.js"></script>
+    
+    <script src="/assets/plugin/org.graylog.plugins.collector.CollectorPlugin/plugin.org.graylog.plugins.collector.CollectorPlugin.13edb0af11e27a17b001.js"></script>
+    
+    <script src="/assets/app.35e28e4da7743596569a.js"></script>
+    
+  </body>
+</html>
