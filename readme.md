@@ -41,5 +41,5 @@ Didi naton ig store aton mga resources na nakukuha while nag papractice kita. Ad
     ├── Stego
     └── Web
 
-> Goal hadi is para organized aton practice. Ngan if mayda ma discover an usa new source mas dali ma share. Ngan para mayda kita central database para mag store hin writeups and other stuff na makabulig pag solve challenges. 
+> Goal hadi is para organized aton practice. Ngan if mayda ma discover an usa new source mas dali ma share. Ngan para mayda kita central database para mag store hin writeups and other stuff na makabulig pag solve challenges. At the end of each day, pag try kamo pag commit, ngan every start hin day kun mag practice kamo, pag git pull anay para latest an iyo copy.  
 
