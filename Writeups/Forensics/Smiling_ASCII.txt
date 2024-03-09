@@ -1,0 +1,4 @@
+# DESC
+Find the flag on the smiling face
+
+Link: https://github.com/SanketBaraiya/CTFlearn-Solutions/tree/main/Smiling%20ASCII
