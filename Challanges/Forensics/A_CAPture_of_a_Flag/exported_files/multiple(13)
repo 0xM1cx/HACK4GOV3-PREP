@@ -1,0 +1,1 @@
+{"16ae48fb-deda-43b7-8902-57e01ca98506":{"total":2,"metrics":[{"full_name":"org.graylog2.throughput.input.1-sec-rate","metric":{"value":3.0},"name":"1-sec-rate","type":"gauge"},{"full_name":"org.graylog2.throughput.output.1-sec-rate","metric":{"value":111.0},"name":"1-sec-rate","type":"gauge"}]}}

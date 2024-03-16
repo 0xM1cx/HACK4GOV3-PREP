@@ -1,0 +1,1 @@
+{"nodes":[{"cluster_id":"3b957845-4908-4c5d-932f-f228780f47ca","node_id":"16ae48fb-deda-43b7-8902-57e01ca98506","type":"server","transport_address":"http://10.50.201.201:9000/api/","last_seen":"2017-08-04T14:03:33.000Z","short_node_id":"16ae48fb","hostname":"gridelk01.grid.local","is_master":true}],"total":1}
