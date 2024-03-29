@@ -1,0 +1,4 @@
+Writeup Link: https://niekdang.wordpress.com/2020/07/08/ctflearn-solution-hailcaesar/
+
+This challenge was solved using a python script that has a -18 offset. which meas it is shifted 18 characters leftward. 
+There were clues in the file, which were found using the strings command
