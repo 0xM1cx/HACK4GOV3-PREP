@@ -1,4 +1,3 @@
-
 from Crypto.Util.number import getStrongPrime
 from Crypto.Random.random import randint
 

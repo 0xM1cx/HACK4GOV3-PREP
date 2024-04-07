@@ -1,12 +1,10 @@
 #!/usr/bin/python3 
 from Pedersen_commitments import gen, commit, verify
 
-
 # I want to host a trustworthy online casino! 
 # To implement blackjack and craps in a trustworthy way i need verifiable dice and cards!
 # I've used information theoretic commitments to prevent players from cheating.
 # Can you audit these functionalities for me ?
-
 from random import randint
 # Verifiable Dice roll
 def roll_dice(pk):
