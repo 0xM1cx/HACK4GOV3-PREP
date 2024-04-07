@@ -1,0 +1,25 @@
+Challenge Solved
+1. Wolvctf_Forensics
+2. UFALC
+3. stego_with_rgb_bluredData
+4. Smiling_ASCII
+5. Naughty_Cat
+6. MountainMain
+7. Minions
+8. Milks_Best_Friend
+9. Hidden_Data
+10. HailCaesar!
+11. GandalfTheWise
+12. ExclusiveSanta
+13. Digital_Camouflage
+14. Corrupted_file
+15
+
+
+Challenges Still Solving
+1. The_Bin_in_the_dump
+2. TheVault
+3. PDF_by_fdumpyp
+4. MrBin
+5  c130_Web_Investigation
+6. A_Capture_of_a_Flag
