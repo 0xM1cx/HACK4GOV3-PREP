@@ -1,0 +1,6 @@
+https://blog.noxtal.com/writeups/2020/05/29/ctflearn888/
+
+
+In this challenge, there is a double ebd marker of ffd9. Then between the double end marker there are hex data. 
+Copying that hex data to cyberchef, in the challenge description it states that "XOR is your friend". Therefore, we must xor the data
+So we added "from hex" option then magic option with the depth of 22. Then we get the flag
