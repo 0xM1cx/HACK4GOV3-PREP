@@ -1,0 +1,3 @@
+https://gitea.iitdh.ac.in/180010027/CTFlearn-Writeups/src/branch/master/Cryptography/BruXOR/README.md
+
+This writeup, shows you how to bruteforce XORs
