@@ -1,0 +1,6 @@
+Link: https://medium.com/@joao_amaral/pico-ctf-tunnel-vision-forensics-exercise-2e3ed2234b54
+Link for the bmp file format: https://en.wikipedia.org/wiki/BMP_file_format
+
+In this challnege you are given a file that just have same data in it. Upon investigating that data
+you find out that it is a bmp file, based on the 4 bytes header. Just read the writeup for more. It tackes
+problems about proper file structure, editing the width and height of the file and more. 
