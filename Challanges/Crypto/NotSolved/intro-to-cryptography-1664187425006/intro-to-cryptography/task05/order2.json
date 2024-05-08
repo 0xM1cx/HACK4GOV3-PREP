@@ -1,0 +1,8 @@
+{
+  "sender": "Alice",
+  "recipient": "Mallory",
+  "currency": "USD",
+  "amount": 9000,
+  "notes": "weekly payment"
+}
+
