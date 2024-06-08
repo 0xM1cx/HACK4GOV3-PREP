@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTF challenge</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <h2>Welcome to Quote Display Page</h2>
+
+    <p>Your Quote should be in "Double Quote"</p>
+    <form action="/" method="post">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Input :</label>
+            <input type="text" class="form-control form-control-lg" id="exampleFormControlInput1" name="text"
+                placeholder="Enter your text here" required>
+        </div>
+        <button type="submit" class="btn btn-primary mb-3">Submit</button>
+    </form>
+    <br>
+    <div class="output">
+        {% if output is defined %}
+        {{ output }} <br />
+        {% endif%}
+    </div>
+</body>
+
+</html>
