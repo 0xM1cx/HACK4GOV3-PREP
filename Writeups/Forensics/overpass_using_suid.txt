@@ -1,0 +1,4 @@
+LINK: https://medium.com/@mat.redzia/overpass-2-tryhackme-write-up-fc809b608864
+
+
+in this challenge, the hard part was getting escalated priviledges using suid. This writeup also help me on using hashcat. 
