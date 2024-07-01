@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Review Form</title>
+</head>
+<body>
+    <h1>Customer Review Form</h1>
+
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="review">Your Review:</label><br>
+        <textarea id="review" name="review" rows="4" cols="50" required></textarea><br><br>
+
+        <label for="uploadedFile">Upload Image/File:</label>
+        <input type="file" id="uploadedFile" name="uploadedFile"><br><br>
+
+        <input type="submit" value="Submit Review">
+    </form>
+</body>
+</html>

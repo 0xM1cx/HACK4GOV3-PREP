@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Us</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/products/">Products</a></li>
+                <li><a href="/about/">About</a></li>
+                <li><a href="/reviews/">Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about">
+            <h1>About Us</h1>
+
+            <p>Welcome to our online store! We strive to provide the best products and services to our customers. Our mission is to...</p>
+
+            <h2>Our Team</h2>
+            <p>We are a dedicated team of professionals passionate about delivering high-quality products and exceptional customer experiences.</p>
+
+            <h2>Our Values</h2>
+            <p>At our core, we value integrity, innovation, and customer satisfaction. Our commitment to...</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Online Store. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Store</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/products/">Products</a></li>
+                <li><a href="/about/">About</a></li>
+                <li><a href="/reviews/">Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to Our Online Store</h1>
+            <p>Find the best deals on your favorite products!</p>
+            <a href="/products/" class="btn">Shop Now</a>
+        </section>
+
+        <!-- Additional sections or content can be added here -->
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Online Store. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
