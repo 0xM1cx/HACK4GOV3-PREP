@@ -1,0 +1,43 @@
+Starting Nmap 7.93 ( https://nmap.org ) at 2024-07-11 14:43 PST
+Stats: 0:00:09 elapsed; 0 hosts completed (1 up), 1 undergoing Connect Scan
+Connect Scan Timing: About 18.26% done; ETC: 14:44 (0:00:40 remaining)
+Nmap scan report for cyberlens.thm (10.10.111.216)
+Host is up (0.36s latency).
+Not shown: 992 closed tcp ports (conn-refused)
+PORT     STATE    SERVICE       VERSION
+80/tcp   open     http          Apache httpd 2.4.57 ((Win64))
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-title: CyberLens: Unveiling the Hidden Matrix
+|_http-server-header: Apache/2.4.57 (Win64)
+135/tcp  open     msrpc         Microsoft Windows RPC
+139/tcp  open     netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open     microsoft-ds?
+1272/tcp filtered cspmlockmgr
+3389/tcp open     ms-wbt-server Microsoft Terminal Services
+|_ssl-date: 2024-07-11T06:44:50+00:00; 0s from scanner time.
+| ssl-cert: Subject: commonName=CyberLens
+| Not valid before: 2024-07-10T06:42:14
+|_Not valid after:  2025-01-09T06:42:14
+| rdp-ntlm-info: 
+|   Target_Name: CYBERLENS
+|   NetBIOS_Domain_Name: CYBERLENS
+|   NetBIOS_Computer_Name: CYBERLENS
+|   DNS_Domain_Name: CyberLens
+|   DNS_Computer_Name: CyberLens
+|   Product_Version: 10.0.17763
+|_  System_Time: 2024-07-11T06:44:41+00:00
+3737/tcp filtered xpanel
+5922/tcp filtered unknown
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2024-07-11T06:44:43
+|_  start_date: N/A
+| smb2-security-mode: 
+|   311: 
+|_    Message signing enabled but not required
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 76.60 seconds
