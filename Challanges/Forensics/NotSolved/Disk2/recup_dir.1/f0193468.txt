@@ -1,0 +1,10 @@
+the true PCI topology and makes the frontend
+   there is a single PCI bus with only the exported devices on it.
+   For example, a device at 03:05.0 will be re-assigned to 00:00.0
+   while second device at 02:1a.1 will be re-assigned to 00:01.1.
+ 1 - Passthrough provides a real view of the PCI topology to the
+   frontend (for example, a device at 06:01.b will still appear at
+   06:01.b to the frontend). This is similar to how Xen 2.0.x
+   exposed PCI devices to its driver domains. This may be required
+   for drivers which depend on finding their hardward in certain
+   bus/slot locations.

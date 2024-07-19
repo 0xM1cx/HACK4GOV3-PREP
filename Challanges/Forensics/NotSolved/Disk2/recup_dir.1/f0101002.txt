@@ -1,0 +1,14 @@
+____ : '%8.8s'
+GPT major revision ___ : 0x%.4x
+GPT minor revision ___ : 0x%.4x
+GPT header size ______ : 0x%.8x
+GPT header checksum __ : 0x%.8x
+GPT reserved _________ : '%4.4s'
+GPT LBA current ______ : 0x%.16llx
+GPT LBA alternative __ : 0x%.16llx
+GPT LBA first usable _ : 0x%.16llx
+GPT LBA last usable __ : 0x%.16llx
+GPT LBA part. table __ : 0x%.16llx
+GPT partition count __ : 0x%.8x
+GPT partition size ___ : 0x%.8x
+GPT part. table chksum : 0x%.8x
