@@ -1,9 +1,9 @@
 #!/usr/bin/python3 -u
 import os.path
 
-KEY_FILE = "key"
+KEY_FILE = "key.txt"
 KEY_LEN = 50000
-FLAG_FILE = "flag"
+FLAG_FILE = "flag.txt"
 
 
 def startup(key_location):
