@@ -1,14 +1,14 @@
 import string
 
-LOWERCASE_OFFSET = ord("a")
-ALPHABET = string.ascii_lowercase[:16]
+LOWERCASE_OFFSET = ord("a") # 97
+ALPHABET = string.ascii_lowercase[:16] #'abcdefghijklmnop'
 
 def b16_encode(plain):
 	enc = ""
 	for c in plain:
 		binary = "{0:08b}".format(ord(c))
-		enc += ALPHABET[int(binary[:4], 2)]
-		enc += ALPHABET[int(binary[4:], 2)]
+		enc += ALPHABET[int(binary[:4], 2)] # 2nd half of binary
+		enc += ALPHABET[int(binary[4:], 2)] # 1st half of binary
 	return enc
 
 def shift(c, k):
