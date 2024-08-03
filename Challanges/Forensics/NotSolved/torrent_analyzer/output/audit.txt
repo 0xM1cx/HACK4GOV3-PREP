@@ -1,0 +1,21 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Fri Aug  2 18:53:12 2024
+Invocation: foremost torrent.pcap 
+Output directory: /home/shun/HACK4GOV3-PREP/Challanges/Forensics/NotSolved/torrent_analyzer/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: torrent.pcap
+Start: Fri Aug  2 18:53:12 2024
+Length: 61 MB (64269536 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+Finish: Fri Aug  2 18:53:12 2024
+
+0 FILES EXTRACTED
+	
+------------------------------------------------------------------
+
+Foremost finished at Fri Aug  2 18:53:12 2024
